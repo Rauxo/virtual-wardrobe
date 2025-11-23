@@ -72,8 +72,8 @@ function Navbar() {
   return (
     <>
       {/* Desktop Sidebar */}
-      <div className="hidden lg:block">
-        <aside className="fixed left-0 top-0 h-screen w-64 bg-white border-r border-gray-100 z-40 flex flex-col">
+      <div className="hidden lg:block ">
+        <aside className="fixed left-0 top-0 h-screen bg-gray-200 w-64  border-r border-gray-100 z-40 flex flex-col">
           <div className="p-6 border-b border-gray-100">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
               OurWardrobe
@@ -120,7 +120,7 @@ function Navbar() {
       </div>
 
       {/* Top Bar */}
-      <header className="fixed top-0 left-0 right-0 h-16 bg-white border-b border-gray-100 z-50 flex items-center justify-between px-4 lg:px-6 lg:pl-72 backdrop-blur-sm">
+      <header className="fixed top-0 left-0 right-0 h-16 bg-gray-200 border-b border-gray-100 z-50 flex items-center justify-between px-4 lg:px-6 lg:pl-72 backdrop-blur-sm">
         {/* Left side - Logo for mobile, Menu button */}
         <div className="flex items-center gap-4">
           <button 
