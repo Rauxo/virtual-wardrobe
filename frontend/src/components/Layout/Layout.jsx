@@ -1,9 +1,16 @@
-import React from 'react'
+import Navbar from "../Navbar/Navbar";
 
-function Layout() {
+function Layout({ children }) {
   return (
-    <div>Layout</div>
-  )
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+      <main className=" lg:pl-64">
+        <div className="p-6 lg:p-8">
+          {children}
+        </div>
+      </main>
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
