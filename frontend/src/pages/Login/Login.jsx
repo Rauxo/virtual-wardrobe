@@ -1,80 +1,117 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Mail, Lock, Eye, EyeOff, LogIn } from "lucide-react";
 
 function Login() {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const submitHandler = (e) => {
     e.preventDefault();
+    // Add your login logic here
+    console.log("Logging in:", { email });
   };
 
   return (
-    <div className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-br from-green-50 to-green-100 px-6 py-10">
+    <div className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-br from-emerald-50 to-teal-50 px-4 py-8">
 
-      {/* LEFT :: COMPACT FORM CARD */}
-      <div className="bg-white rounded-xl shadow-lg p-8 w-full max-w-sm animate-fadeIn">
-        <h2 className="text-2xl font-bold text-green-700 mb-6 text-center">
+      {/* COMPACT PREMIUM LOGIN CARD */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="w-full max-w-xs sm:max-w-sm bg-white/90 backdrop-blur-lg rounded-2xl shadow-xl p-6 border border-white/30"
+      >
+        <h1 className="text-2xl font-bold text-center bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-6">
           Welcome Back
-        </h2>
+        </h1>
 
-        <form onSubmit={submitHandler} className="space-y-6">
-          {/* Floating Label Email */}
+        <form onSubmit={submitHandler} className="space-y-4">
+          {/* Email */}
           <div className="relative">
+            <Mail className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="block w-full px-3 py-3 border border-gray-300 rounded-lg bg-transparent focus:border-green-500 focus:ring-0 outline-none peer"
+              placeholder="Email"
+              className="w-full pl-10 pr-3 py-3 text-sm bg-gray-50 border border-gray-200 rounded-xl focus:border-emerald-500 focus:ring-4 focus:ring-emerald-100 outline-none transition"
             />
-            <label className="absolute left-3 top-3 text-gray-500 transition-all duration-200 pointer-events-none peer-focus:-top-2 peer-focus:left-2 peer-focus:text-sm peer-focus:text-green-600 peer-valid:-top-2 peer-valid:left-2 peer-valid:text-sm peer-valid:text-green-600">
-              Email
-            </label>
           </div>
 
-          {/* Floating Label Password */}
+          {/* Password */}
           <div className="relative">
+            <Lock className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
-              type="password"
+              type={showPassword ? "text" : "password"}
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="block w-full px-3 py-3 border border-gray-300 rounded-lg bg-transparent focus:border-green-500 focus:ring-0 outline-none peer"
+              placeholder="Password"
+              className="w-full pl-10 pr-10 py-3 text-sm bg-gray-50 border border-gray-200 rounded-xl focus:border-emerald-500 focus:ring-4 focus:ring-emerald-100 outline-none transition"
             />
-            <label className="absolute left-3 top-3 text-gray-500 transition-all duration-200 pointer-events-none peer-focus:-top-2 peer-focus:left-2 peer-focus:text-sm peer-focus:text-green-600 peer-valid:-top-2 peer-valid:left-2 peer-valid:text-sm peer-valid:text-green-600">
-              Password
-            </label>
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-3.5"
+            >
+              {showPassword ? (
+                <EyeOff className="w-4 h-4 text-gray-500" />
+              ) : (
+                <Eye className="w-4 h-4 text-gray-500" />
+              )}
+            </button>
+          </div>
+
+          {/* Forgot Password? */}
+          <div className="text-right">
+            <span
+              onClick={() => navigate("/forgot-password")}
+              className="text-xs text-emerald-600 hover:underline cursor-pointer"
+            >
+              Forgot password?
+            </span>
           </div>
 
           {/* Login Button */}
-          <button className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-all shadow-md">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            type="submit"
+            className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-medium py-3 rounded-xl shadow-md hover:shadow-lg transition flex items-center justify-center gap-2 text-sm"
+          >
+            <LogIn className="w-4 h-4" />
             Login
-          </button>
+          </motion.button>
         </form>
 
-        {/* Create account link */}
-        <p className="text-center text-gray-600 mt-4">
+        <p className="text-center text-xs text-gray-600 mt-5">
           New here?{" "}
           <span
-            className="text-green-600 font-semibold hover:underline cursor-pointer"
             onClick={() => navigate("/create")}
+            className="text-emerald-600 font-semibold hover:underline cursor-pointer"
           >
             Create account
           </span>
         </p>
-      </div>
+      </motion.div>
 
-      {/* TOP ON MOBILE / RIGHT ON DESKTOP :: IMAGE */}
-      <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0 md:ml-10 animate-slideUp">
+      {/* HERO IMAGE - Same as Register */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mb-8 lg:mb-0 lg:ml-12"
+      >
         <img
           src="https://cdni.iconscout.com/illustration/premium/thumb/man-ensures-user-authentication-illustration-svg-download-png-10697190.png"
-          alt="login visual"
-          className="w-72 md:w-96"
+          alt="Organized wardrobe"
+          className="w-56 sm:w-64 lg:w-80 rounded-2xl "
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
