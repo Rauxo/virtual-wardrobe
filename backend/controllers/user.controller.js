@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 // Helper function to generate a JWT token
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: "30d", 
+    expiresIn: "30d",
   });
 };
 
@@ -19,9 +19,9 @@ const registrationController = async (req, res) => {
       res.status(400);
       throw new Error("Please enter all fields");
     }
-    if(password != cpassword){
+    if (password != cpassword) {
       res.status(400);
-      throw new Error("Password Doesn't match.")
+      throw new Error("Password Doesn't match.");
     }
 
     const userExists = await userModel.findOne({ email });
@@ -92,7 +92,27 @@ const loginController = async (req, res) => {
   }
 };
 
+//Get User data
+const getUserDataController = async (req, res) => {
+  try {
+    const userId = req.userId;
+    const user = await userModel.findById(userId).select("-password");
+    return res.json({
+      message: "user details",
+      data: user,
+      error: false,
+      success: true,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      message: "Internal Server Error",
+    });
+  }
+};
+
 module.exports = {
   loginController,
   registrationController,
+  getUserDataController,
 };

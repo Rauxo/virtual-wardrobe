@@ -21,7 +21,7 @@ module.exports = async (req, res, next) => {
             .status(203)
             .send({ success: false, message: "Token expired" });
         }
-        req.body.userId = decoded.id;
+         req.userId = decoded.id;
         next();
       }
     });
