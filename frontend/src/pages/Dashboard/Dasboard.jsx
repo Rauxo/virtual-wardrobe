@@ -3,7 +3,7 @@ import Layout from '../../components/Layout/Layout';
 import { Shirt, Package, HeartHandshake, Plus, Grid3X3, Lightbulb, X, Upload } from 'lucide-react';
 
 function Dashboard() {
-  const userName = "Alex";
+  const userName = "Rahul";
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Modal form state
