@@ -6,6 +6,7 @@ import Dasboard from './pages/Dashboard/Dasboard';
 import MyWardrobe from './pages/wardrobe/MyWardrobe';
 import Donations from './pages/donations/Donations';
 import Profile from './pages/profile/Profile';
+import ForgotPassword from './pages/forgotpasword/ForgotPassword';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/myclothes' element={<MyWardrobe/>} />
       <Route path="/donations" element={<Donations/>} />
       <Route path='/profile' element={<Profile/>} />
+      <Route path='/forgot-password' element={<ForgotPassword/>} />
     </Routes>
   </BrowserRouter>
   )

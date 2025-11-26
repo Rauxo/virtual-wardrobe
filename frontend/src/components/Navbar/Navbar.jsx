@@ -54,7 +54,7 @@ function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   const handleLogout = () => {
-    navigate("/login");
+    navigate("/gettingStarted");
   };
 
   const markAsRead = (id) => {
