@@ -8,11 +8,11 @@ const donationSchema = new mongoose.Schema({
   },
   recipientEmail: {
     type: String,
-    required: [true, 'Recipient email is required'],
+    required: true,
     lowercase: true,
     trim: true
   },
-  recipientUser: {
+  recipientUser: {  // ← this is correct
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     default: null
@@ -29,19 +29,14 @@ const donationSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['pending', 'accepted', 'completed', 'cancelled'],
+    enum: ['pending', 'accepted', 'completed', 'cancelled', 'rejected'],
     default: 'pending'
   },
   itemName: String,
   itemCategory: String,
   itemColor: String,
-  notes: {
-    type: String,
-    default: ''
-  }
-}, {
-  timestamps: true
-});
+  notes: { type: String, default: '' }
+}, { timestamps: true });
 
 // Indexes
 donationSchema.index({ donor: 1, createdAt: -1 });

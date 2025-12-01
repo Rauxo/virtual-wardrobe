@@ -1,16 +1,21 @@
+// routes/donation.js
 const express = require('express');
 const router = express.Router();
 const authMiddleware = require('../middlewares/authMiddleware');
-const donationController = require('../controllers/donationController');
+const {
+  sendDonation,
+  getDonations,
+  acceptDonation,
+  rejectDonation,
+  cancelDonation
+} = require('../controllers/donationController');
 
-// All routes require authentication
 router.use(authMiddleware);
 
-// Donation routes
-router.post('/send', donationController.sendDonation);
-router.get('/', donationController.getDonations);
-router.get('/pending', donationController.getPendingDonations);
-router.post('/:id/accept', donationController.acceptDonation);
-router.post('/:id/cancel', donationController.cancelDonation);
+router.post('/send', sendDonation);
+router.get('/', getDonations);
+router.put('/:id/accept', acceptDonation);
+router.post('/:id/reject', rejectDonation);
+router.post('/:id/cancel', cancelDonation);
 
 module.exports = router;

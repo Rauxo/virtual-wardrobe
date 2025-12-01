@@ -10,6 +10,7 @@ const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
 const wardrobeRoutes = require('./routes/wardrobeRoutes');
 const donationRoutes = require('./routes/donationRoutes');
+const notification = require('./routes/notificationRoute');
 
 const app = express();
 app.use(morgan("dev"));
@@ -28,6 +29,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/wardrobe', wardrobeRoutes);
 app.use('/api/donations', donationRoutes);
+app.use('/api/notification', notification);
 
 // Health check
 app.get('/api/health', (req, res) => {
