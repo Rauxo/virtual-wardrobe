@@ -16,7 +16,7 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/gettingStarted" replace />} />
+          <Route path="/" element={<Welcome/>} />
           <Route path="/gettingStarted" element={<Login />} />
           <Route path="/create" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />

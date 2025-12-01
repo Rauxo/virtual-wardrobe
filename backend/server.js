@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
+const morgan = require('morgan')
 
 // Import routes
 const authRoutes = require('./routes/authRoutes');
@@ -11,7 +12,7 @@ const wardrobeRoutes = require('./routes/wardrobeRoutes');
 const donationRoutes = require('./routes/donationRoutes');
 
 const app = express();
-
+app.use(morgan("dev"));
 // Middleware
 app.use(cors());
 app.use(express.json());
