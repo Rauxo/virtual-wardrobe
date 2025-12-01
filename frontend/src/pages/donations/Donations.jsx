@@ -52,9 +52,9 @@ function Donations() {
   });
 
   // Only show items that are not already donated
-  const activeWardrobeItems = wardrobeItems.filter(
-    (item) => item.status === 'active' || item.status === 'inactive'
-  );
+ const activeWardrobeItems = wardrobeItems.filter(
+  (item) => ['active', 'inactive'].includes(item.status)
+);
 
   useEffect(() => {
     dispatch(getItems({ status: 'active' }));
