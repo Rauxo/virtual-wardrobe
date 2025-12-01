@@ -1,0 +1,19 @@
+const express = require('express');
+const router = express.Router();
+const authMiddleware = require('../middleware/authMiddleware');
+const upload = require('../utils/upload');
+const wardrobeController = require('../controllers/wardrobeController');
+
+// All routes require authentication
+router.use(authMiddleware);
+
+// Wardrobe routes
+router.post('/items', upload.single('image'), wardrobeController.addItem);
+router.get('/items', wardrobeController.getItems);
+router.get('/items/:id', wardrobeController.getItem);
+router.put('/items/:id', upload.single('image'), wardrobeController.updateItem);
+router.delete('/items/:id', wardrobeController.deleteItem);
+router.patch('/items/:id/status', wardrobeController.updateItemStatus);
+router.get('/dashboard-stats', wardrobeController.getDashboardStats);
+
+module.exports = router;

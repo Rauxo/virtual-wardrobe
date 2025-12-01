@@ -1,6 +1,6 @@
-// Navbar.jsx
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux';
 import { motion, AnimatePresence } from "framer-motion";
 import {
   LayoutDashboard,
@@ -13,10 +13,14 @@ import {
   Check,
   Trash2,
 } from "lucide-react";
+import { logout } from '../../store/slices/authSlice';
 
 function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.auth);
+  
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isNotifOpen, setIsNotifOpen] = useState(false);
   const notifRef = useRef(null);
@@ -54,6 +58,7 @@ function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   const handleLogout = () => {
+    dispatch(logout());
     navigate("/gettingStarted");
   };
 
@@ -67,6 +72,16 @@ function Navbar() {
 
   const clearAll = () => {
     setNotifications([]);
+  };
+
+  const getInitials = () => {
+    if (!user?.name) return 'U';
+    return user.name
+      .split(" ")
+      .map(n => n[0])
+      .join("")
+      .toUpperCase()
+      .slice(0, 2);
   };
 
   return (
@@ -107,6 +122,15 @@ function Navbar() {
           </nav>
 
           <div className="p-4 border-t border-gray-100">
+            <div className="flex items-center gap-3 mb-4 px-4">
+              <div className="w-9 h-9 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                {getInitials()}
+              </div>
+              <div>
+                <p className="text-sm font-medium text-gray-900">{user?.name || 'User'}</p>
+                <p className="text-xs text-gray-600">{user?.email || ''}</p>
+              </div>
+            </div>
             <button
               onClick={handleLogout}
               className="flex items-center gap-3 px-4 py-3 rounded-xl text-red-600 hover:bg-red-50 w-full transition"
@@ -295,7 +319,7 @@ function Navbar() {
           {/* Profile */}
           <Link to="/profile" className="flex items-center gap-2">
             <div className="w-9 h-9 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
-              U
+              {getInitials()}
             </div>
           </Link>
 
@@ -357,6 +381,15 @@ function Navbar() {
               </nav>
 
               <div className="p-4 border-t">
+                <div className="flex items-center gap-3 mb-4 px-4">
+                  <div className="w-9 h-9 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                    {getInitials()}
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-gray-900">{user?.name || 'User'}</p>
+                    <p className="text-xs text-gray-600">{user?.email || ''}</p>
+                  </div>
+                </div>
                 <button
                   onClick={handleLogout}
                   className="flex items-center gap-3 px-4 py-3 rounded-xl text-red-600 hover:bg-red-50 w-full"

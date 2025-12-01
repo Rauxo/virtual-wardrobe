@@ -1,0 +1,51 @@
+const mongoose = require('mongoose');
+
+const donationSchema = new mongoose.Schema({
+  donor: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  recipientEmail: {
+    type: String,
+    required: [true, 'Recipient email is required'],
+    lowercase: true,
+    trim: true
+  },
+  recipientUser: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    default: null
+  },
+  item: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'ClothingItem',
+    required: true
+  },
+  type: {
+    type: String,
+    enum: ['sent', 'received'],
+    required: true
+  },
+  status: {
+    type: String,
+    enum: ['pending', 'accepted', 'completed', 'cancelled'],
+    default: 'pending'
+  },
+  itemName: String,
+  itemCategory: String,
+  itemColor: String,
+  notes: {
+    type: String,
+    default: ''
+  }
+}, {
+  timestamps: true
+});
+
+// Indexes
+donationSchema.index({ donor: 1, createdAt: -1 });
+donationSchema.index({ recipientEmail: 1, createdAt: -1 });
+donationSchema.index({ status: 1 });
+
+module.exports = mongoose.model('Donation', donationSchema);

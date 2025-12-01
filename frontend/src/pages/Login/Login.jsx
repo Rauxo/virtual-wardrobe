@@ -1,24 +1,44 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Mail, Lock, Eye, EyeOff, LogIn } from "lucide-react";
+import { useDispatch, useSelector } from 'react-redux';
+import { login, clearError } from '../../store/slices/authSlice';
+import { toast } from 'react-toastify';
 
 function Login() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { loading, error } = useSelector((state) => state.auth);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const submitHandler = (e) => {
+  useEffect(() => {
+    if (error) {
+      toast.error(error);
+      dispatch(clearError());
+    }
+  }, [error, dispatch]);
+
+  const submitHandler = async (e) => {
     e.preventDefault();
-    // Add your login logic here
-    console.log("Logging in:", { email });
+    
+    if (!email || !password) {
+      toast.error('Please fill in all fields');
+      return;
+    }
+
+    const result = await dispatch(login({ email, password }));
+    if (login.fulfilled.match(result)) {
+      toast.success('Login successful!');
+      navigate('/dashboard');
+    }
   };
 
   return (
     <div className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-br from-emerald-50 to-teal-50 px-4 py-8">
-
       {/* COMPACT PREMIUM LOGIN CARD */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -82,10 +102,20 @@ function Login() {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             type="submit"
-            className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-medium py-3 rounded-xl shadow-md hover:shadow-lg transition flex items-center justify-center gap-2 text-sm"
+            disabled={loading}
+            className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-medium py-3 rounded-xl shadow-md hover:shadow-lg transition flex items-center justify-center gap-2 text-sm disabled:opacity-70 disabled:cursor-not-allowed"
           >
-            <LogIn className="w-4 h-4" />
-            Login
+            {loading ? (
+              <>
+                <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                Logging in...
+              </>
+            ) : (
+              <>
+                <LogIn className="w-4 h-4" />
+                Login
+              </>
+            )}
           </motion.button>
         </form>
 
@@ -100,7 +130,7 @@ function Login() {
         </p>
       </motion.div>
 
-      {/* HERO IMAGE - Same as Register */}
+      {/* HERO IMAGE */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
