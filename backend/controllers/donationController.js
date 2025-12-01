@@ -87,69 +87,32 @@ const sendDonation = async (req, res) => {
 // Get Donations (with type filter)
 const getDonations = async (req, res) => {
   try {
-    const { type = 'all', status } = req.query;
-    
+    if (!req.user) {
+      return res.status(401).json({ success: false, message: 'User not authenticated' });
+    }
+
+    const { type } = req.query;
+    console.log('Getting donations for user:', req.user.email, 'Type:', type);
+
     let query = {};
-
-    switch (type) {
-      case 'sent':
-        query.donor = req.userId;
-        break;
-      case 'received':
-        query.recipientEmail = req.user.email;
-        break;
-      case 'history':
-        query.$or = [
-          { donor: req.userId },
-          { recipientEmail: req.user.email }
-        ];
-        break;
-      default:
-        // For 'all', get both sent and received
-        query.$or = [
-          { donor: req.userId },
-          { recipientEmail: req.user.email }
-        ];
+    
+    if (type === 'sent') {
+      query = { donorEmail: req.user.email };
+    } else if (type === 'received') {
+      query = { receiverEmail: req.user.email };
     }
 
-    if (status) {
-      query.status = status;
-    }
+    const donations = await Donation.find(query).sort({ createdAt: -1 });
 
-    const donations = await Donation.find(query)
-      .populate('donor', 'name email')
-      .populate('recipientUser', 'name email')
-      .populate('item', 'name category color imageUrl')
-      .sort({ createdAt: -1 });
-
-    // Get stats
-    const sentCount = await Donation.countDocuments({ 
-      donor: req.userId 
-    });
-    const receivedCount = await Donation.countDocuments({ 
-      recipientEmail: req.user.email 
-    });
-    const pendingCount = await Donation.countDocuments({ 
-      donor: req.userId,
-      status: 'pending'
-    });
-
-    res.status(200).json({
+    res.json({
       success: true,
-      donations,
-      stats: {
-        sent: sentCount,
-        received: receivedCount,
-        pending: pendingCount
-      }
+      message: 'Donations fetched successfully',
+      donations
     });
+
   } catch (error) {
     console.error('Get donations error:', error);
-    res.status(500).json({
-      success: false,
-      message: 'Error fetching donations',
-      error: error.message
-    });
+    res.status(500).json({ success: false, message: 'Server error' });
   }
 };
 

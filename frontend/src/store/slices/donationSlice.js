@@ -21,6 +21,44 @@ export const sendDonation = createAsyncThunk(
   }
 );
 
+export const acceptDonation = createAsyncThunk(
+  'donation/acceptDonation',
+  async (donationId, { getState, rejectWithValue }) => {
+    try {
+      const token = getState().auth.token;
+      const response = await api.put(
+        `/donations/${donationId}/accept`,
+        {},
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
+      return response.data;
+    } catch (error) {
+      return rejectWithValue(error.response?.data?.message || 'Failed to accept donation');
+    }
+  }
+);
+
+export const cancelDonation = createAsyncThunk(
+  'donation/cancelDonation',
+  async (donationId, { getState, rejectWithValue }) => {
+    try {
+      const token = getState().auth.token;
+      const response = await api.put(
+        `/donations/${donationId}/cancel`,
+        {},
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
+      return response.data;
+    } catch (error) {
+      return rejectWithValue(error.response?.data?.message || 'Failed to cancel donation');
+    }
+  }
+);
+
 export const getDonations = createAsyncThunk(
   'donation/getDonations',
   async (type, { getState, rejectWithValue }) => {
@@ -102,6 +140,40 @@ const donationSlice = createSlice({
         state.stats.pending += 1;
       })
       .addCase(sendDonation.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.payload;
+      })
+      // Accept Donation
+      .addCase(acceptDonation.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(acceptDonation.fulfilled, (state, action) => {
+        state.loading = false;
+        const index = state.donations.findIndex((d) => d._id === action.payload.donation._id);
+        if (index !== -1) {
+          state.donations[index] = action.payload.donation;
+        }
+        state.message = action.payload.message;
+      })
+      .addCase(acceptDonation.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.payload;
+      })
+      // Cancel Donation
+      .addCase(cancelDonation.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(cancelDonation.fulfilled, (state, action) => {
+        state.loading = false;
+        const index = state.donations.findIndex((d) => d._id === action.payload.donation._id);
+        if (index !== -1) {
+          state.donations[index] = action.payload.donation;
+        }
+        state.message = action.payload.message;
+      })
+      .addCase(cancelDonation.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload;
       })
