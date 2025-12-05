@@ -6,7 +6,7 @@ const User = require('../models/User');
 console.log('AI Outfit Notifier Started');
 
 // Every 1 minute (for testing)
-cron.schedule('* * * * *', async () => {
+cron.schedule('0 8 * * *', async () => {
   try {
     const users = await User.find().limit(10);
     const outfit = await getSmartOutfit();
@@ -30,6 +30,3 @@ cron.schedule('* * * * *', async () => {
     console.log('Error:', err.message);
   }
 });
-
-// Uncomment for daily at 8 AM
-// cron.schedule('0 8 * * *', async () => { ... same code ... });
