@@ -39,7 +39,6 @@ function Login() {
 
   return (
     <div className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-br from-emerald-50 to-teal-50 px-4 py-8">
-      {/* COMPACT PREMIUM LOGIN CARD */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -50,7 +49,6 @@ function Login() {
         </h1>
 
         <form onSubmit={submitHandler} className="space-y-4">
-          {/* Email */}
           <div className="relative">
             <Mail className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -63,7 +61,6 @@ function Login() {
             />
           </div>
 
-          {/* Password */}
           <div className="relative">
             <Lock className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -87,7 +84,6 @@ function Login() {
             </button>
           </div>
 
-          {/* Forgot Password? */}
           <div className="text-right">
             <span
               onClick={() => navigate("/forgot-password")}
@@ -97,7 +93,6 @@ function Login() {
             </span>
           </div>
 
-          {/* Login Button */}
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -130,7 +125,6 @@ function Login() {
         </p>
       </motion.div>
 
-      {/* HERO IMAGE */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

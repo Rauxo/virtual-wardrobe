@@ -64,7 +64,6 @@ function Register() {
 
   return (
     <div className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-br from-emerald-50 to-teal-50 px-4 py-8">
-      {/* COMPACT PREMIUM FORM */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -86,7 +85,6 @@ function Register() {
         )}
 
         <form onSubmit={submitHandler} className="space-y-4">
-          {/* Name */}
           <div className="relative">
             <User className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -99,7 +97,6 @@ function Register() {
             />
           </div>
 
-          {/* Email */}
           <div className="relative">
             <Mail className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -112,7 +109,6 @@ function Register() {
             />
           </div>
 
-          {/* Password */}
           <div className="relative">
             <Lock className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -132,7 +128,6 @@ function Register() {
             </button>
           </div>
 
-          {/* Strength Bar */}
           {password && (
             <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
               <motion.div
@@ -145,7 +140,6 @@ function Register() {
             </div>
           )}
 
-          {/* Confirm Password */}
           <div className="relative">
             <Lock className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
             <input
@@ -165,7 +159,6 @@ function Register() {
             </button>
           </div>
 
-          {/* Submit */}
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -198,7 +191,6 @@ function Register() {
         </p>
       </motion.div>
 
-      {/* Small Illustration */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

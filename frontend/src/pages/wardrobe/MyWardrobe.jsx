@@ -1,4 +1,3 @@
-// src/pages/MyWardrobe.tsx
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -16,7 +15,6 @@ import {
   clearWardrobeError 
 } from '../../store/slices/wardrobeSlice';
 
-// Constants
 const categories = ["Top", "Bottom", "Dress", "Jacket", "Shoes", "Accessories", "Bag", "Outerwear"];
 const genders = ["Men", "Women", "Unisex", "Kids (Boy)", "Kids (Girl)"];
 const statuses = ["active", "inactive", "donated"];
@@ -24,10 +22,8 @@ const statuses = ["active", "inactive", "donated"];
 function MyWardrobe() {
   const dispatch = useDispatch();
   
-  // Get data from Redux store
   const { items, stats, loading, error } = useSelector((state) => state.wardrobe);
   
-  // State
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [form, setForm] = useState({
     name: "", 
@@ -49,7 +45,6 @@ function MyWardrobe() {
   const [viewMode, setViewMode] = useState('grid');
   const [showInactive, setShowInactive] = useState(false);
 
-  // Error handling
   useEffect(() => {
     if (error) {
       toast.error(error);
@@ -57,23 +52,20 @@ function MyWardrobe() {
     }
   }, [error, dispatch]);
 
-  // Load items on component mount and when filters change
   useEffect(() => {
     const queryFilters = {
       ...filters,
-      status: showInactive ? '' : 'active' // Show all if inactive is shown
+      status: showInactive ? '' : 'active' 
     };
     dispatch(getItems(queryFilters));
   }, [dispatch, filters, showInactive]);
 
-  // Calculate statistics
   const calculateStats = () => {
     const activeItems = items.filter(item => item.status === 'active').length;
     const inactiveItems = items.filter(item => item.status === 'inactive').length;
     const donatedItems = items.filter(item => item.status === 'donated').length;
     const uniqueColors = new Set(items.map(item => item.color)).size;
     
-    // Category breakdown
     const categoryBreakdown = categories.map(cat => ({
       category: cat,
       count: items.filter(item => item.category === cat).length
@@ -201,7 +193,6 @@ function MyWardrobe() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* Header */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
@@ -241,7 +232,6 @@ function MyWardrobe() {
           </div>
         </motion.div>
 
-        {/* Stats */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
@@ -281,7 +271,6 @@ function MyWardrobe() {
           </motion.div>
         </motion.div>
 
-        {/* Category Breakdown */}
         {statsData.categoryBreakdown.length > 0 && (
           <motion.div 
             initial={{ opacity: 0, y: 20 }} 
@@ -301,7 +290,6 @@ function MyWardrobe() {
           </motion.div>
         )}
 
-        {/* Filters */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
@@ -385,7 +373,6 @@ function MyWardrobe() {
           </div>
         </motion.div>
 
-        {/* Items Grid/List */}
         <AnimatePresence mode="wait">
           {loading ? (
             <motion.div 
@@ -445,14 +432,12 @@ function MyWardrobe() {
                         </div>
                       )}
 
-                      {/* Status Badge */}
                       <div className="absolute top-3 left-3">
                         <span className={`px-2 py-1 rounded-full text-xs font-medium ${getStatusColor(item.status)}`}>
                           {item.status}
                         </span>
                       </div>
 
-                      {/* Action Buttons */}
                       <div className="absolute top-3 right-3 flex flex-col gap-2">
                         <button
                           onClick={(e) => {
@@ -592,7 +577,6 @@ function MyWardrobe() {
           )}
         </AnimatePresence>
 
-        {/* Add Item Modal */}
         <AnimatePresence>
           {isModalOpen && (
             <motion.div

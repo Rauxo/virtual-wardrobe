@@ -95,7 +95,6 @@ function ForgotPassword() {
         transition={{ duration: 0.6 }}
         className="w-full max-w-md bg-white/95 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/40"
       >
-        {/* Back Button */}
         {step > 1 && (
           <button
             onClick={goBack}
@@ -106,7 +105,6 @@ function ForgotPassword() {
           </button>
         )}
 
-        {/* STEP 1: Enter Email */}
         {step === 1 && (
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full flex items-center justify-center">
@@ -155,7 +153,6 @@ function ForgotPassword() {
           </div>
         )}
 
-        {/* STEP 2: Verify OTP */}
         {step === 2 && (
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-teal-100 to-cyan-100 rounded-full flex items-center justify-center">
@@ -195,7 +192,6 @@ function ForgotPassword() {
           </div>
         )}
 
-        {/* STEP 3: New Password */}
         {step === 3 && (
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full flex items-center justify-center">

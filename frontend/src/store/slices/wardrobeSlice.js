@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import api from '../../services/api';
 
-// Async Thunks
 export const addItem = createAsyncThunk(
   'wardrobe/addItem',
   async (formData, { getState, rejectWithValue }) => {
@@ -108,7 +107,6 @@ const wardrobeSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      // Get Items
       .addCase(getItems.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -122,7 +120,6 @@ const wardrobeSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Add Item
       .addCase(addItem.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -138,7 +135,6 @@ const wardrobeSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Get Dashboard Stats
       .addCase(getDashboardStats.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -151,7 +147,6 @@ const wardrobeSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Delete Item
       .addCase(deleteItem.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -166,7 +161,6 @@ const wardrobeSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Update Item Status
       .addCase(updateItemStatus.pending, (state) => {
         state.loading = true;
         state.error = null;

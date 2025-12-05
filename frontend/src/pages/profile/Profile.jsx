@@ -12,7 +12,6 @@ function Profile() {
   const [editedName, setEditedName] = useState(user?.name || '');
   const [editedEmail, setEditedEmail] = useState(user?.email || '');
 
-  // Password states
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -97,22 +96,17 @@ function Profile() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
-      {/* Page Title */}
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 sm:mb-10 text-center sm:text-left">
         My Profile
       </h1>
 
-      {/* Profile Card */}
       <div className="bg-white rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100 p-6 sm:p-8 mb-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
-          {/* Avatar + Info */}
           <div className="flex flex-col sm:flex-row items-center gap-5 sm:gap-6 text-center sm:text-left">
-            {/* Avatar */}
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center text-white text-2xl sm:text-3xl font-bold shadow-lg flex-shrink-0">
               {initials}
             </div>
 
-            {/* Name & Email */}
             <div className="flex-1 w-full">
               {isEditing ? (
                 <div className="space-y-3">
@@ -145,7 +139,6 @@ function Profile() {
             </div>
           </div>
 
-          {/* Edit / Save Buttons */}
           <div className="flex gap-3 justify-center sm:justify-end">
             {isEditing ? (
               <>
@@ -183,7 +176,6 @@ function Profile() {
         </div>
       </div>
 
-      {/* Change Password Section */}
       <div className="bg-white rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100 p-6 sm:p-8">
         <div className="flex items-center gap-3 mb-8 justify-center sm:justify-start">
           <Lock className="w-7 h-7 sm:w-8 sm:h-8 text-emerald-600" />

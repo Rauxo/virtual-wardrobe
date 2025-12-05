@@ -22,7 +22,6 @@ function Dashboard() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   
-  // Get user from Redux store
   const { user } = useSelector((state) => state.auth);
   const { items, stats, loading } = useSelector((state) => state.wardrobe);
   
@@ -39,9 +38,7 @@ function Dashboard() {
   const genders = ["Men", "Women", "Unisex", "Kids (Boy)", "Kids (Girl)"];
 
   useEffect(() => {
-    // Fetch dashboard stats when component mounts
     dispatch(getDashboardStats());
-    // Fetch recent items
     dispatch(getItems({ limit: 5, sortBy: 'newest' }));
   }, [dispatch]);
 
@@ -67,7 +64,6 @@ function Dashboard() {
     const result = await dispatch(addItem(formDataToSend));
     if (addItem.fulfilled.match(result)) {
       toast.success('Item added successfully!');
-      // Reset form
       setFormData({
         name: "",
         category: "",
@@ -76,18 +72,15 @@ function Dashboard() {
         image: null
       });
       setIsModalOpen(false);
-      // Refresh stats
       dispatch(getDashboardStats());
     }
   };
 
-  // Get user's first name
   const getUserFirstName = () => {
     if (!user?.name) return 'User';
     return user.name.split(' ')[0];
   };
 
-  // Format date to relative time (e.g., "2 days ago")
   const formatRelativeTime = (dateString) => {
     const date = new Date(dateString);
     const now = new Date();
@@ -101,14 +94,12 @@ function Dashboard() {
     return date.toLocaleDateString();
   };
 
-  // Get recent items (limit to 3 for dashboard)
   const recentItems = items.slice(0, 3);
 
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        {/* Welcome Section with User's Name */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-3">
             Welcome back, <span className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
@@ -120,9 +111,7 @@ function Dashboard() {
           </p>
         </div>
 
-        {/* Stats Cards - Now using real data from Redux */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {/* Total Items */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
             <div className="flex items-center justify-between">
               <div>
@@ -141,7 +130,6 @@ function Dashboard() {
             </div>
           </div>
 
-          {/* Inactive Items */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
             <div className="flex items-center justify-between">
               <div>
@@ -162,7 +150,6 @@ function Dashboard() {
             </div>
           </div>
 
-          {/* Pending Donations */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
             <div className="flex items-center justify-between">
               <div>
@@ -180,7 +167,6 @@ function Dashboard() {
             </div>
           </div>
 
-          {/* Active Rate */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
             <div className="flex items-center justify-between">
               <div>
@@ -201,13 +187,10 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Recent Items & Quick Actions Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-          {/* Quick Actions - Takes 2 columns */}
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Quick Actions</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Add New Item - Opens Modal */}
               <button
                 onClick={() => setIsModalOpen(true)}
                 className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-2xl p-6 flex items-center gap-4 hover:shadow-xl transition-all hover:scale-105"
@@ -256,7 +239,6 @@ function Dashboard() {
             </div>
           </div>
 
-          {/* Recent Items - Takes 1 column */}
           <div>
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-2xl font-bold text-gray-800">Recent Items</h2>
@@ -327,7 +309,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Wardrobe Tips */}
         <div>
           <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
             <Lightbulb className="w-8 h-8 text-yellow-500" />
@@ -356,19 +337,15 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* MODAL - Add New Item */}
         {isModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-            {/* Backdrop */}
             <div 
               className="absolute inset-0 bg-black/60 backdrop-blur-sm"
               onClick={() => setIsModalOpen(false)}
             />
 
-            {/* Modal Card */}
             <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-lg max-h-screen overflow-y-auto">
               <div className="p-8">
-                {/* Close Button */}
                 <button
                   onClick={() => setIsModalOpen(false)}
                   className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 transition"
@@ -379,7 +356,6 @@ function Dashboard() {
                 <h2 className="text-2xl font-bold text-gray-800 mb-8">Add New Clothing Item</h2>
 
                 <div className="space-y-6">
-                  {/* Item Name */}
                   <input
                     type="text"
                     placeholder="Item Name (e.g. Blue Denim Jacket)"
@@ -388,7 +364,6 @@ function Dashboard() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-emerald-500 focus:ring-4 focus:ring-emerald-100 outline-none transition"
                   />
 
-                  {/* Category */}
                   <select
                     value={formData.category}
                     onChange={(e) => setFormData({ ...formData, category: e.target.value })}
@@ -400,7 +375,6 @@ function Dashboard() {
                     ))}
                   </select>
 
-                  {/* For (Gender) */}
                   <select
                     value={formData.gender}
                     onChange={(e) => setFormData({ ...formData, gender: e.target.value })}
@@ -412,7 +386,6 @@ function Dashboard() {
                     ))}
                   </select>
 
-                  {/* Color */}
                   <input
                     type="text"
                     placeholder="Color (e.g. Navy Blue, Beige)"
@@ -421,7 +394,6 @@ function Dashboard() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-emerald-500 focus:ring-4 focus:ring-emerald-100 outline-none transition"
                   />
 
-                  {/* Image Upload */}
                   <label className="block cursor-pointer">
                     <input
                       type="file"
@@ -455,7 +427,6 @@ function Dashboard() {
                   </label>
                 </div>
 
-                {/* Action Buttons */}
                 <div className="flex gap-4 mt-10">
                   <button
                     onClick={() => setIsModalOpen(false)}

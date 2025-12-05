@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import api from '../../services/api';
 
-// Async Thunks
 export const login = createAsyncThunk(
   'auth/login',
   async ({ email, password }, { rejectWithValue }) => {
@@ -125,7 +124,6 @@ export const changePassword = createAsyncThunk(
   }
 );
 
-// Initial state from localStorage
 const token = localStorage.getItem('token');
 const user = localStorage.getItem('user');
 
@@ -160,7 +158,6 @@ const authSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      // Login
       .addCase(login.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -174,7 +171,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Signup
       .addCase(signup.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -188,7 +184,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Forgot Password
       .addCase(forgotPassword.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -202,7 +197,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Verify OTP
       .addCase(verifyOtp.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -215,7 +209,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Reset Password
       .addCase(resetPassword.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -230,7 +223,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Update Profile
       .addCase(updateProfile.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -244,7 +236,6 @@ const authSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Change Password
       .addCase(changePassword.pending, (state) => {
         state.loading = true;
         state.error = null;

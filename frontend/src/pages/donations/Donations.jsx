@@ -1,4 +1,3 @@
-// src/pages/Donations.jsx
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -128,7 +127,6 @@ function Donations() {
           ))}
         </div>
 
-        {/* Send Tab */}
         {tab === 'send' && (
           <div>
             {activeWardrobeItems.length === 0 ? (
@@ -150,7 +148,6 @@ function Donations() {
           </div>
         )}
 
-        {/* Received & History Tabs */}
         {(tab === 'received' || tab === 'history') && (
           <div className="space-y-6">
             {currentDonations.length === 0 ? (
@@ -200,7 +197,6 @@ function Donations() {
           </div>
         )}
 
-        {/* Modal */}
         {modalOpen && (
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
             <div className="bg-white rounded-2xl p-8 max-w-md w-full mx-4">

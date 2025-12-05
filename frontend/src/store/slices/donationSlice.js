@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import api from '../../services/api';
 
-// Async Thunks
 export const sendDonation = createAsyncThunk(
   'donation/sendDonation',
   async ({ itemId, recipientEmail, notes }, { getState, rejectWithValue }) => {
@@ -113,7 +112,6 @@ const donationSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      // Get Donations
       .addCase(getDonations.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -127,7 +125,6 @@ const donationSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Send Donation
       .addCase(sendDonation.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -143,7 +140,6 @@ const donationSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Accept Donation
       .addCase(acceptDonation.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -160,7 +156,6 @@ const donationSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Cancel Donation
       .addCase(cancelDonation.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -177,7 +172,6 @@ const donationSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-      // Get Pending Donations
       .addCase(getPendingDonations.pending, (state) => {
         state.loading = true;
         state.error = null;
