@@ -1,4 +1,3 @@
-// components/Navbar.jsx
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
@@ -25,7 +24,6 @@ function Navbar() {
   const [isNotifOpen, setIsNotifOpen] = useState(false);
   const notifRef = useRef(null);
 
-  // Auto refresh notifications + live count
   useEffect(() => {
     dispatch(getNotifications());
     const interval = setInterval(() => dispatch(getNotifications()), 15000);
@@ -76,7 +74,6 @@ function Navbar() {
 
   return (
     <>
-      {/* Desktop Sidebar */}
       <div className="hidden lg:block">
         <aside className="fixed left-0 top-0 h-screen bg-gray-200 w-64 border-r border-gray-100 z-40 flex flex-col">
           <div className="p-6 border-b border-gray-100">
@@ -128,7 +125,6 @@ function Navbar() {
         <div className="w-64" />
       </div>
 
-      {/* Top Bar */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-gray-200 border-b border-gray-100 z-50 flex items-center justify-between px-4 lg:px-6 lg:pl-72 backdrop-blur-sm">
         <div className="flex items-center gap-4">
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden">
@@ -140,7 +136,6 @@ function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* Notification Bell */}
           <div className="relative" ref={notifRef}>
             <button
               onClick={() => setIsNotifOpen(!isNotifOpen)}
@@ -157,11 +152,9 @@ function Navbar() {
               )}
             </button>
 
-            {/* CENTERED NOTIFICATION ON MOBILE */}
             <AnimatePresence>
               {isNotifOpen && (
                 <>
-                  {/* Mobile: Full screen centered modal */}
                   <div className="fixed inset-0 bg-black/50 z-50 lg:hidden" onClick={() => setIsNotifOpen(false)} />
                   
                   <motion.div
@@ -222,7 +215,6 @@ function Navbar() {
               )}
             </AnimatePresence>
 
-            {/* Desktop: Right-aligned dropdown */}
             <AnimatePresence>
               {isNotifOpen && (
                 <motion.div
@@ -231,7 +223,6 @@ function Navbar() {
                   exit={{ opacity: 0, y: -10 }}
                   className="hidden lg:block absolute right-0 mt-2 w-96 bg-white rounded-2xl shadow-2xl border border-gray-200 z-50 overflow-hidden"
                 >
-                  {/* Desktop beautiful AI design (same as before) */}
                   <div className="p-4 border-b border-gray-100 flex justify-between items-center">
                     <h3 className="font-bold text-gray-900 flex items-center gap-2">
                       <Sparkles className="w-5 h-5 text-emerald-500" />
@@ -305,7 +296,6 @@ function Navbar() {
             </AnimatePresence>
           </div>
 
-          {/* Profile & Logout */}
           <Link to="/profile" className="flex items-center gap-2">
             <div className="w-9 h-9 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
               {getInitials()}
@@ -317,12 +307,66 @@ function Navbar() {
         </div>
       </header>
 
-      {/* Mobile Menu & Bottom Padding */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div initial={{ x: -300 }} animate={{ x: 0 }} exit={{ x: -300 }} className="fixed inset-0 z-50 lg:hidden">
             <div className="absolute inset-0 bg-black/30" onClick={() => setIsMobileMenuOpen(false)} />
-            {/* Your existing mobile menu */}
+            <aside className="absolute left-0 top-0 h-full w-64 bg-white shadow-xl flex flex-col z-60">
+              <div className="p-6 border-b border-gray-100 flex justify-between items-center">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
+                  OurWardrobe
+                </h1>
+                <button onClick={() => setIsMobileMenuOpen(false)}>
+                  <X className="w-6 h-6 text-gray-600" />
+                </button>
+              </div>
+
+              <nav className="flex-1 p-4">
+                <ul className="space-y-1">
+                  {navItems.map((item) => (
+                    <li key={item.name}>
+                      <Link
+                        to={item.path}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={`relative flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${
+                          isActive(item.path)
+                            ? "text-emerald-600 font-semibold"
+                            : "text-gray-600 hover:text-gray-900"
+                        }`}
+                      >
+                        <item.icon className="w-5 h-5" />
+                        <span>{item.name}</span>
+                        {isActive(item.path) && (
+                          <motion.div
+                            layoutId="mobileActive"
+                            className="absolute left-0 top-0 bottom-0 w-1 bg-emerald-600 rounded-r-full"
+                          />
+                        )}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+
+              <div className="p-4 border-t border-gray-100">
+                <div className="flex items-center gap-3 mb-4 px-4">
+                  <div className="w-9 h-9 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                    {getInitials()}
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-gray-900">{user?.name || 'User'}</p>
+                    <p className="text-xs text-gray-600">{user?.email || ''}</p>
+                  </div>
+                </div>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-3 px-4 py-3 rounded-xl text-red-600 hover:bg-red-50 w-full transition"
+                >
+                  <LogOut className="w-5 h-5" />
+                  <span className="font-medium">Logout</span>
+                </button>
+              </div>
+            </aside>
           </motion.div>
         )}
       </AnimatePresence>
