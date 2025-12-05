@@ -1,6 +1,25 @@
 // controllers/notificationController.js
 const Notification = require('../models/Notification');
 
+
+const createNotification = async ({ userId, title, message, type = 'info', relatedDonation = null, data = {} }) => {
+  try {
+    const notification = new Notification({
+      user: userId,
+      title,
+      message,
+      type,
+      relatedDonation,
+      data,
+      read: false
+    });
+    await notification.save();
+    return notification;
+  } catch (error) {
+    console.error('Create notification failed:', error.message);
+    throw error;
+  }
+};
 const getNotifications = async (req, res) => {
   try {
     const notifications = await Notification.find({ user: req.user._id })
@@ -52,4 +71,4 @@ const clearAll = async (req, res) => {
   }
 };
 
-module.exports = { getNotifications, markAsRead, markAllAsRead, clearAll };
+module.exports = { getNotifications,createNotification, markAsRead, markAllAsRead, clearAll };

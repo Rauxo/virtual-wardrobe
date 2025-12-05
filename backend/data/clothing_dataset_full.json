@@ -1,0 +1,4034 @@
+[
+  {
+    "name": "Floral Embroidered Kurti",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Straight Cotton Kurti",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Anarkali Kurti",
+    "category": "Kurti",
+    "color": "Maroon",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Chikankari Kurti",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Printed Rayon Kurti",
+    "category": "Kurti",
+    "color": "Mustard",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Long Slit Kurti",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Asymmetric Kurti",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Cape Style Kurti",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "High-Waist Skinny Jeans",
+    "category": "Jeans",
+    "color": "Dark Blue",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Ripped Mom Jeans",
+    "category": "Jeans",
+    "color": "Light Blue",
+    "style": "Western",
+    "occasion": "College",
+    "season": "All Season"
+  },
+  {
+    "name": "Wide Leg Jeans",
+    "category": "Jeans",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Flared Jeans",
+    "category": "Jeans",
+    "color": "Indigo",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Boyfriend Jeans",
+    "category": "Jeans",
+    "color": "Light Wash",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Bootcut Jeans",
+    "category": "Jeans",
+    "color": "Dark Wash",
+    "style": "Western",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Printed Palazzo",
+    "category": "Palazzo",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Solid Crepe Palazzo",
+    "category": "Palazzo",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Sharara Palazzo",
+    "category": "Palazzo",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Dhoti Palazzo",
+    "category": "Palazzo",
+    "color": "Maroon",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Pleated Palazzo",
+    "category": "Palazzo",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Oversized Graphic T-Shirt",
+    "category": "T-Shirt",
+    "color": "Black",
+    "style": "Casual",
+    "occasion": "College",
+    "season": "Summer"
+  },
+  {
+    "name": "Basic Round Neck Tee",
+    "category": "T-Shirt",
+    "color": "White",
+    "style": "Casual",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Striped Polo T-Shirt",
+    "category": "T-Shirt",
+    "color": "Navy",
+    "style": "Casual",
+    "occasion": "Outing",
+    "season": "Summer"
+  },
+  {
+    "name": "V-Neck T-Shirt",
+    "category": "T-Shirt",
+    "color": "Grey",
+    "style": "Casual",
+    "occasion": "Gym",
+    "season": "All Season"
+  },
+  {
+    "name": "Henley T-Shirt",
+    "category": "T-Shirt",
+    "color": "Olive",
+    "style": "Casual",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Banarasi Silk Saree",
+    "category": "Saree",
+    "color": "Red",
+    "style": "Traditional",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Chiffon Printed Saree",
+    "category": "Saree",
+    "color": "Green",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kanjivaram Saree",
+    "category": "Saree",
+    "color": "Royal Blue",
+    "style": "Traditional",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Georgette Saree",
+    "category": "Saree",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Organza Saree",
+    "category": "Saree",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Ribbed Crop Top",
+    "category": "Crop Top",
+    "color": "Pink",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Off-Shoulder Crop Top",
+    "category": "Crop Top",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Date",
+    "season": "Summer"
+  },
+  {
+    "name": "Halter Crop Top",
+    "category": "Crop Top",
+    "color": "Yellow",
+    "style": "Western",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "One-Shoulder Crop Top",
+    "category": "Crop Top",
+    "color": "Red",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Tube Crop Top",
+    "category": "Crop Top",
+    "color": "White",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Formal Wool Blazer",
+    "category": "Blazer",
+    "color": "Navy",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "Winter"
+  },
+  {
+    "name": "Checked Blazer",
+    "category": "Blazer",
+    "color": "Grey",
+    "style": "Western",
+    "occasion": "Semi-Formal",
+    "season": "Winter"
+  },
+  {
+    "name": "Velvet Party Blazer",
+    "category": "Blazer",
+    "color": "Maroon",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Denim Blazer",
+    "category": "Blazer",
+    "color": "Blue",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Leather Blazer",
+    "category": "Blazer",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Pullover Hoodie",
+    "category": "Hoodie",
+    "color": "Grey",
+    "style": "Casual",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Zip-Up Hoodie",
+    "category": "Hoodie",
+    "color": "Black",
+    "style": "Casual",
+    "occasion": "Travel",
+    "season": "Winter"
+  },
+  {
+    "name": "Printed Hoodie",
+    "category": "Hoodie",
+    "color": "Red",
+    "style": "Casual",
+    "occasion": "College",
+    "season": "Winter"
+  },
+  {
+    "name": "Oversized Hoodie",
+    "category": "Hoodie",
+    "color": "Beige",
+    "style": "Casual",
+    "occasion": "Casual",
+    "season": "Winter"
+  },
+  {
+    "name": "Cropped Hoodie",
+    "category": "Hoodie",
+    "color": "Pink",
+    "style": "Casual",
+    "occasion": "Gym",
+    "season": "Winter"
+  },
+  {
+    "name": "A-Line Midi Dress",
+    "category": "Dress",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Floral Maxi Dress",
+    "category": "Dress",
+    "color": "Pink",
+    "style": "Western",
+    "occasion": "Vacation",
+    "season": "Summer"
+  },
+  {
+    "name": "Bodycon Mini Dress",
+    "category": "Dress",
+    "color": "Red",
+    "style": "Western",
+    "occasion": "Date",
+    "season": "Summer"
+  },
+  {
+    "name": "Wrap Dress",
+    "category": "Dress",
+    "color": "Blue",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Shirt Dress",
+    "category": "Dress",
+    "color": "White",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Heavy Anarkali Gown",
+    "category": "Gown",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Net Embroidered Gown",
+    "category": "Gown",
+    "color": "Wine",
+    "style": "Ethnic",
+    "occasion": "Reception",
+    "season": "Winter"
+  },
+  {
+    "name": "Cape Gown",
+    "category": "Gown",
+    "color": "Royal Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Mermaid Gown",
+    "category": "Gown",
+    "color": "Gold",
+    "style": "Western",
+    "occasion": "Prom",
+    "season": "All Season"
+  },
+  {
+    "name": "Ball Gown",
+    "category": "Gown",
+    "color": "Silver",
+    "style": "Western",
+    "occasion": "Wedding",
+    "season": "All Season"
+  },
+  {
+    "name": "Skater Skirt",
+    "category": "Skirt",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Pleated Midi Skirt",
+    "category": "Skirt",
+    "color": "Beige",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Lehenga Skirt",
+    "category": "Skirt",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Pencil Skirt",
+    "category": "Skirt",
+    "color": "Grey",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Mini Skirt",
+    "category": "Skirt",
+    "color": "Denim",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Denim Jacket",
+    "category": "Jacket",
+    "color": "Blue",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Winter"
+  },
+  {
+    "name": "Leather Biker Jacket",
+    "category": "Jacket",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Ethnic Jacket",
+    "category": "Jacket",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Bomber Jacket",
+    "category": "Jacket",
+    "color": "Olive",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Winter"
+  },
+  {
+    "name": "Puffer Jacket",
+    "category": "Jacket",
+    "color": "Navy",
+    "style": "Western",
+    "occasion": "Travel",
+    "season": "Winter"
+  },
+  {
+    "name": "Cotton Leggings",
+    "category": "Leggings",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Printed Leggings",
+    "category": "Leggings",
+    "color": "Multicolor",
+    "style": "Fusion",
+    "occasion": "Gym",
+    "season": "All Season"
+  },
+  {
+    "name": "Churidar Leggings",
+    "category": "Leggings",
+    "color": "Beige",
+    "style": "Ethnic",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Jeggings",
+    "category": "Leggings",
+    "color": "Dark Blue",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Capri Leggings",
+    "category": "Leggings",
+    "color": "Grey",
+    "style": "Western",
+    "occasion": "Gym",
+    "season": "Summer"
+  },
+  {
+    "name": "Formal Trousers",
+    "category": "Trousers",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Cargo Pants",
+    "category": "Trousers",
+    "color": "Olive",
+    "style": "Western",
+    "occasion": "Travel",
+    "season": "All Season"
+  },
+  {
+    "name": "Palazzo Pants",
+    "category": "Trousers",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Chinos",
+    "category": "Trousers",
+    "color": "Beige",
+    "style": "Western",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Track Pants",
+    "category": "Trousers",
+    "color": "Grey",
+    "style": "Casual",
+    "occasion": "Gym",
+    "season": "All Season"
+  },
+  {
+    "name": "Nehru Jacket",
+    "category": "Nehru Jacket",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Bandhgala",
+    "category": "Bandhgala",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Reception",
+    "season": "Winter"
+  },
+  {
+    "name": "Pathani Kurta",
+    "category": "Pathani",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Sherwani",
+    "category": "Sherwani",
+    "color": "Gold",
+    "style": "Traditional",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Achkan",
+    "category": "Achkan",
+    "color": "Maroon",
+    "style": "Traditional",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Peplum Top",
+    "category": "Top",
+    "color": "Red",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Cold Shoulder Top",
+    "category": "Top",
+    "color": "Blue",
+    "style": "Western",
+    "occasion": "Date",
+    "season": "Summer"
+  },
+  {
+    "name": "Shirt Style Top",
+    "category": "Top",
+    "color": "White",
+    "style": "Western",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Tank Top",
+    "category": "Tank Top",
+    "color": "White",
+    "style": "Casual",
+    "occasion": "Gym",
+    "season": "Summer"
+  },
+  {
+    "name": "Racerback Tank",
+    "category": "Tank Top",
+    "color": "Black",
+    "style": "Casual",
+    "occasion": "Sports",
+    "season": "Summer"
+  },
+  {
+    "name": "Salwar Suit",
+    "category": "Salwar Suit",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Patiala Suit",
+    "category": "Salwar Suit",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Sharara Suit",
+    "category": "Salwar Suit",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Anarkali Suit",
+    "category": "Salwar Suit",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Straight Suit",
+    "category": "Salwar Suit",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Jumpsuit",
+    "category": "Jumpsuit",
+    "color": "Black",
+    "style": "Western",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Denim Jumpsuit",
+    "category": "Jumpsuit",
+    "color": "Blue",
+    "style": "Western",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Printed Jumpsuit",
+    "category": "Jumpsuit",
+    "color": "Multicolor",
+    "style": "Western",
+    "occasion": "Vacation",
+    "season": "Summer"
+  },
+  {
+    "name": "Kaftan",
+    "category": "Kaftan",
+    "color": "Turquoise",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Embroidered Kaftan",
+    "category": "Kaftan",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Resort",
+    "season": "Summer"
+  },
+  {
+    "name": "Lehenga Choli",
+    "category": "Lehenga",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "All Season"
+  },
+  {
+    "name": "Circular Lehenga",
+    "category": "Lehenga",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Sangeet",
+    "season": "All Season"
+  },
+  {
+    "name": "Fish Cut Lehenga",
+    "category": "Lehenga",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Reception",
+    "season": "Winter"
+  },
+  {
+    "name": "Panel Lehenga",
+    "category": "Lehenga",
+    "color": "Royal Blue",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "All Season"
+  },
+  {
+    "name": "Jacket Lehenga",
+    "category": "Lehenga",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Geometric Print Kurti",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Linen Straight Kurti",
+    "category": "Kurti",
+    "color": "Mint",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "Summer"
+  },
+  {
+    "name": "Kalamkari Kurti",
+    "category": "Kurti",
+    "color": "Orange",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Gota Patti Kurti",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Tie-Dye Kurti",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Angrakha Kurti",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "High-Low Kurti",
+    "category": "Kurti",
+    "color": "Teal",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kashmiri Embroidered Kurti",
+    "category": "Kurti",
+    "color": "Crimson",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Hand Block Print Kurti",
+    "category": "Kurti",
+    "color": "Sage",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Batik Print Kurti",
+    "category": "Kurti",
+    "color": "Indigo",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Crop Top Kurti",
+    "category": "Kurti",
+    "color": "Coral",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Belted Kurti",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Ethnic",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Kantha Stitch Kurti",
+    "category": "Kurti",
+    "color": "Olive",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Winter"
+  },
+  {
+    "name": "Mirror Work Kurti",
+    "category": "Kurti",
+    "color": "Magenta",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Sleeveless Kurti",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Ethnic",
+    "occasion": "Summer",
+    "season": "Summer"
+  },
+  {
+    "name": "Full Sleeve Kurti",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Ethnic",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Sheer Kurti",
+    "category": "Kurti",
+    "color": "Rose",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Digital Print Kurti",
+    "category": "Kurti",
+    "color": "Turquoise",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Dhoti Pants",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Bandhani Kurti",
+    "category": "Kurti",
+    "color": "Yellow",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Phulkari Kurti",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Cotton Silk Kurti",
+    "category": "Kurti",
+    "color": "Pastel Blue",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Jersey Kurti",
+    "category": "Kurti",
+    "color": "Charcoal",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Maxi Kurti",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Ethnic",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Short Kurti",
+    "category": "Kurti",
+    "color": "Lime",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Brocade Kurti",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Velvet Kurti",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Net Kurti",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Organza Kurti",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Chiffon Kurti",
+    "category": "Kurti",
+    "color": "Sky Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Crepe Kurti",
+    "category": "Kurti",
+    "color": "Taupe",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Palazzo",
+    "category": "Kurti",
+    "color": "Mustard",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leggings",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Churidar",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Jeans",
+    "category": "Kurti",
+    "color": "Denim Blue",
+    "style": "Fusion",
+    "occasion": "College",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Skirt",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cigarette Pants",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Straight Pants",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Trousers",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Jeggings",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Capri",
+    "category": "Kurti",
+    "color": "Coral",
+    "style": "Fusion",
+    "occasion": "Summer",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Sharara",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Dhoti",
+    "category": "Kurti",
+    "color": "Maroon",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Salwar",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Patiala",
+    "category": "Kurti",
+    "color": "Orange",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Palazzo Set",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lehenga",
+    "category": "Kurti",
+    "color": "Royal Blue",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Anarkali",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Straight Cut",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with A-Line",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Flared",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Umbrella Cut",
+    "category": "Kurti",
+    "color": "Yellow",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Mermaid Cut",
+    "category": "Kurti",
+    "color": "Teal",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Trumpet",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Balloon",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Bubble",
+    "category": "Kurti",
+    "color": "Mint",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tiered",
+    "category": "Kurti",
+    "color": "Rose",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Ruffled",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Pleated",
+    "category": "Kurti",
+    "color": "Sage",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Gathered",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Smocked",
+    "category": "Kurti",
+    "color": "Coral",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Shirred",
+    "category": "Kurti",
+    "color": "Turquoise",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Draped",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Ethnic",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Wrap",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zipped",
+    "category": "Kurti",
+    "color": "Charcoal",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Hooded",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Collared",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with V-Neck",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Round Neck",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Square Neck",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Boat Neck",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Off-Shoulder",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cold Shoulder",
+    "category": "Kurti",
+    "color": "Maroon",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with One-Shoulder",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Halter",
+    "category": "Kurti",
+    "color": "Yellow",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Spaghetti",
+    "category": "Kurti",
+    "color": "Orange",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tube",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Peplum",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Empire",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Drop Waist",
+    "category": "Kurti",
+    "color": "Teal",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Basque",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Princess Seam",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Yoke",
+    "category": "Kurti",
+    "color": "Sage",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Godet",
+    "category": "Kurti",
+    "color": "Coral",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Gusset",
+    "category": "Kurti",
+    "color": "Turquoise",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Gored",
+    "category": "Kurti",
+    "color": "Mint",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Circular",
+    "category": "Kurti",
+    "color": "Rose",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Panel",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Gathered Waist",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Elasticated Waist",
+    "category": "Kurti",
+    "color": "Taupe",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Drawstring Waist",
+    "category": "Kurti",
+    "color": "Olive",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Belted Waist",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Ethnic",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cinched Waist",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Waistband",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Contrast Waist",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Embellished Waist",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Beaded Waist",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Sequined Waist",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Mirror Waist",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Thread Work Waist",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Zari Work Waist",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Resham Work Waist",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Stone Work Waist",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pearl Work Waist",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crystal Work Waist",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rhinestone Waist",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Studded Waist",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Chain Waist",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rope Waist",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leather Waist",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Suede Waist",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Velvet Waist",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Satin Waist",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Silk Waist",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Chiffon Waist",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Georgette Waist",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Net Waist",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Waist",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Crochet Waist",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Macrame Waist",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tassel Waist",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pompom Waist",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Fringe Waist",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Feather Waist",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Sequined Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Bell Sleeves",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Flared Sleeves",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Bishop Sleeves",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Puff Sleeves",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leg-o-Mutton Sleeves",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Juliet Sleeves",
+    "category": "Kurti",
+    "color": "Maroon",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Lantern Sleeves",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Poet Sleeves",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Angel Sleeves",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Batwing Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Dolman Sleeves",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Kimono Sleeves",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Raglan Sleeves",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Set-in Sleeves",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cap Sleeves",
+    "category": "Kurti",
+    "color": "Coral",
+    "style": "Fusion",
+    "occasion": "Summer",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Short Sleeves",
+    "category": "Kurti",
+    "color": "Turquoise",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Three-Quarter Sleeves",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Ethnic",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Long Sleeves",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Roll-up Sleeves",
+    "category": "Kurti",
+    "color": "Denim Blue",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned Sleeves",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cuffed Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Semi-Formal",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Slit Sleeves",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Sheer Sleeves",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Sleeves",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Embroidered Sleeves",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Mirror Sleeves",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Beaded Sleeves",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Sequined Sleeves",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Stone Sleeves",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pearl Sleeves",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crystal Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rhinestone Sleeves",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Studded Sleeves",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Chain Sleeves",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Rope Sleeves",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leather Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Suede Sleeves",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Velvet Sleeves",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Satin Sleeves",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Silk Sleeves",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Chiffon Sleeves",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Georgette Sleeves",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Net Sleeves",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Sleeves",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Crochet Sleeves",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Macrame Sleeves",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tassel Sleeves",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pompom Sleeves",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Fringe Sleeves",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Feather Sleeves",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Embroidered Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Mirror Hem",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Beaded Hem",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Sequined Hem",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Stone Hem",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pearl Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crystal Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rhinestone Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Studded Hem",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Chain Hem",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Rope Hem",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leather Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Suede Hem",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Velvet Hem",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Satin Hem",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Silk Hem",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Chiffon Hem",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Georgette Hem",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Net Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Crochet Hem",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Macrame Hem",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tassel Hem",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pompom Hem",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Fringe Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Feather Hem",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Straight Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Asymmetric Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with High-Low Hem",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Slit Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Round Hem",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Square Hem",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Curved Hem",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Angled Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Scalloped Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Frayed Hem",
+    "category": "Kurti",
+    "color": "Denim Blue",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rolled Hem",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Blind Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Overlocked Hem",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zigzag Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Serpentine Hem",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Handkerchief Hem",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tulip Hem",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Bubble Hem",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Peplum Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Ruffle Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Flounce Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Frill Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tiered Hem",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Layered Hem",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Gathered Hem",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Pleated Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Smocked Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Shirred Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Draped Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Wrap Hem",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned Hem",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zipped Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Snapped Hem",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Hook-and-Eye Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Velcro Hem",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Drawstring Hem",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Elasticated Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cuffed Hem",
+    "category": "Kurti",
+    "color": "Denim Blue",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Banded Hem",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Contrast Hem",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Printed Hem",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Embroidered Hem",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Applique Hem",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Patchwork Hem",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Quilted Hem",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Smocked Bodice",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Shirred Bodice",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Draped Bodice",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Wrap Bodice",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned Bodice",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zipped Bodice",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Laced Bodice",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Hook-and-Eye Bodice",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Snapped Bodice",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Velcro Bodice",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Drawstring Bodice",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Elasticated Bodice",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cincher Bodice",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Corset Bodice",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Bustier Bodice",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Peplum Bodice",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Empire Bodice",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Princess Seam Bodice",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Darted Bodice",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Yoke Bodice",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Panel Bodice",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Gathered Bodice",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Pleated Bodice",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Tucked Bodice",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Smocked Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Shirred Back",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Draped Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Wrap Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zipped Back",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Laced Back",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Hook-and-Eye Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Snapped Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Velcro Back",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Drawstring Back",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Elasticated Back",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Keyhole Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cut-out Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Open Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Low Back",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crisscross Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Halter Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Racerback",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cross-back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with T-back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with U-back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with V-back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Square Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Round Back",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Scoop Back",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Boat Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Off-shoulder Back",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cold-shoulder Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with One-shoulder Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Spaghetti Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tube Back",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Peplum Back",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Empire Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Princess Seam Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Darted Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Yoke Back",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Panel Back",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Gathered Back",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Pleated Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Tucked Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Smocked Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Shirred Front",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Draped Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Wrap Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Buttoned Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Zipped Front",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Laced Front",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Hook-and-Eye Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Snapped Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Velcro Front",
+    "category": "Kurti",
+    "color": "Grey",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Drawstring Front",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Elasticated Front",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Keyhole Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cut-out Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Open Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Low Front",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crisscross Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Halter Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Racer Front",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Cross-front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with T-front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with U-front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with V-front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Square Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Round Front",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Scoop Front",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Boat Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Off-shoulder Front",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Cold-shoulder Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with One-shoulder Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Spaghetti Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tube Front",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Peplum Front",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Empire Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Princess Seam Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Darted Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Yoke Front",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Panel Front",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Gathered Front",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Ethnic",
+    "occasion": "Daily",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Pleated Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Tucked Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Office",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Embroidered Front",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Mirror Front",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Beaded Front",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Sequined Front",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Stone Front",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pearl Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crystal Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rhinestone Front",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Studded Front",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Chain Front",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Rope Front",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leather Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Suede Front",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Velvet Front",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Satin Front",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Silk Front",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Chiffon Front",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Georgette Front",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Net Front",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Front",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Crochet Front",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Macrame Front",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tassel Front",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pompom Front",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Fringe Front",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Feather Front",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Embroidered Back",
+    "category": "Kurti",
+    "color": "Red",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Mirror Back",
+    "category": "Kurti",
+    "color": "Green",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Beaded Back",
+    "category": "Kurti",
+    "color": "Blue",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Sequined Back",
+    "category": "Kurti",
+    "color": "Silver",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Stone Back",
+    "category": "Kurti",
+    "color": "Purple",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pearl Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Crystal Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Rhinestone Back",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Studded Back",
+    "category": "Kurti",
+    "color": "Navy",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Chain Back",
+    "category": "Kurti",
+    "color": "Brown",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Rope Back",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Leather Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Suede Back",
+    "category": "Kurti",
+    "color": "Burgundy",
+    "style": "Fusion",
+    "occasion": "Winter",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Velvet Back",
+    "category": "Kurti",
+    "color": "Emerald",
+    "style": "Ethnic",
+    "occasion": "Party",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Satin Back",
+    "category": "Kurti",
+    "color": "Wine",
+    "style": "Fusion",
+    "occasion": "Evening",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Silk Back",
+    "category": "Kurti",
+    "color": "Cream",
+    "style": "Ethnic",
+    "occasion": "Wedding",
+    "season": "Winter"
+  },
+  {
+    "name": "Kurti with Chiffon Back",
+    "category": "Kurti",
+    "color": "Peach",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Georgette Back",
+    "category": "Kurti",
+    "color": "Lavender",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Net Back",
+    "category": "Kurti",
+    "color": "Black",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Lace Back",
+    "category": "Kurti",
+    "color": "White",
+    "style": "Fusion",
+    "occasion": "Wedding",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Crochet Back",
+    "category": "Kurti",
+    "color": "Ivory",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Macrame Back",
+    "category": "Kurti",
+    "color": "Beige",
+    "style": "Fusion",
+    "occasion": "Beach",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Tassel Back",
+    "category": "Kurti",
+    "color": "Multi",
+    "style": "Ethnic",
+    "occasion": "Festival",
+    "season": "All Season"
+  },
+  {
+    "name": "Kurti with Pompom Back",
+    "category": "Kurti",
+    "color": "Rainbow",
+    "style": "Fusion",
+    "occasion": "Casual",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Fringe Back",
+    "category": "Kurti",
+    "color": "Gold",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  },
+  {
+    "name": "Kurti with Feather Back",
+    "category": "Kurti",
+    "color": "Pink",
+    "style": "Fusion",
+    "occasion": "Party",
+    "season": "Summer"
+  }
+]

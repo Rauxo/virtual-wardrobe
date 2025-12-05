@@ -17,12 +17,21 @@ const notificationSchema = new mongoose.Schema({
   },
   type: {
     type: String,
-    enum: ['donation_sent', 'donation_received', 'donation_accepted'],
+    enum: [
+      'donation_sent',
+      'donation_received', 
+      'donation_accepted',
+      'outfit_suggestion'    // ADD THIS LINE
+    ],
     required: true
   },
   relatedDonation: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Donation'
+  },
+  data: {                     // ADD THIS FIELD (for outfit details)
+    type: Object,
+    default: {}
   },
   read: {
     type: Boolean,

@@ -35,7 +35,8 @@ app.use('/api/notification', notification);
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
 });
-
+// At the very bottom of your server.js
+require('./jobs/outfitNotifier'); // This starts the AI notifier
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
