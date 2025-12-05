@@ -1,49 +1,45 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const path = require('path');
-require('dotenv').config();
-const morgan = require('morgan')
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const path = require("path");
+require("dotenv").config();
+const morgan = require("morgan");
 
-// Import routes
-const authRoutes = require('./routes/authRoutes');
-const userRoutes = require('./routes/userRoutes');
-const wardrobeRoutes = require('./routes/wardrobeRoutes');
-const donationRoutes = require('./routes/donationRoutes');
-const notification = require('./routes/notificationRoute');
+const authRoutes = require("./routes/authRoutes");
+const userRoutes = require("./routes/userRoutes");
+const wardrobeRoutes = require("./routes/wardrobeRoutes");
+const donationRoutes = require("./routes/donationRoutes");
+const notification = require("./routes/notificationRoute");
 
 const app = express();
 app.use(morgan("dev"));
-// Middleware
 app.use(cors());
 app.use(express.json());
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-// Database connection
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('MongoDB connected successfully'))
-  .catch(err => console.error('MongoDB connection error:', err));
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB connected successfully"))
+  .catch((err) => console.error("MongoDB connection error:", err));
 
-// Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/user', userRoutes);
-app.use('/api/wardrobe', wardrobeRoutes);
-app.use('/api/donations', donationRoutes);
-app.use('/api/notification', notification);
+app.use("/api/auth", authRoutes);
+app.use("/api/user", userRoutes);
+app.use("/api/wardrobe", wardrobeRoutes);
+app.use("/api/donations", donationRoutes);
+app.use("/api/notification", notification);
 
-// Health check
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', message: 'Server is running' });
+app.get("/api/health", (req, res) => {
+  res.json({ status: "OK", message: "Server is running" });
 });
-// At the very bottom of your server.js
-require('./jobs/outfitNotifier'); // This starts the AI notifier
-// Error handling middleware
+
+require("./jobs/outfitNotifier");
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ 
-    success: false, 
-    message: 'Something went wrong!',
-    error: process.env.NODE_ENV === 'development' ? err.message : undefined
+  res.status(500).json({
+    success: false,
+    message: "Something went wrong!",
+    error: process.env.NODE_ENV === "development" ? err.message : undefined,
   });
 });
 

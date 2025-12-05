@@ -12,7 +12,7 @@ const donationSchema = new mongoose.Schema({
     lowercase: true,
     trim: true
   },
-  recipientUser: {  // ← this is correct
+  recipientUser: { 
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     default: null
@@ -38,7 +38,6 @@ const donationSchema = new mongoose.Schema({
   notes: { type: String, default: '' }
 }, { timestamps: true });
 
-// Indexes
 donationSchema.index({ donor: 1, createdAt: -1 });
 donationSchema.index({ recipientEmail: 1, createdAt: -1 });
 donationSchema.index({ status: 1 });

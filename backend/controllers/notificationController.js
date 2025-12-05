@@ -1,6 +1,4 @@
-// controllers/notificationController.js
 const Notification = require('../models/Notification');
-
 
 const createNotification = async ({ userId, title, message, type = 'info', relatedDonation = null, data = {} }) => {
   try {

@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please provide a password'],
     minlength: 6,
-    select: false  // IMPORTANT: This hides password by default
+    select: false  
   },
   resetPasswordOtp: String,
   resetPasswordExpires: Date,

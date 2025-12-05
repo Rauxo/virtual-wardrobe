@@ -1,4 +1,3 @@
-// controllers/donationController.js
 const Donation = require('../models/Donation');
 const ClothingItem = require('../models/ClothingItem');
 const User = require('../models/User');
@@ -22,11 +21,9 @@ const sendDonation = async (req, res) => {
     if (!recipient) return res.status(404).json({ success: false, message: 'Recipient not found' });
     if (recipient._id.toString() === donorId.toString()) return res.status(400).json({ success: false, message: 'Cannot donate to yourself' });
 
-    // Mark item as pending donation
     item.status = 'donated';
     await item.save();
 
-    // Create TWO donation records: one for sender, one for receiver
     const donationData = {
       donor: donorId,
       recipientEmail: recipientEmail.toLowerCase(),
@@ -41,7 +38,6 @@ const sendDonation = async (req, res) => {
     await Donation.create({ ...donationData, type: 'sent', status: 'pending' });
     await Donation.create({ ...donationData, type: 'received', status: 'pending' });
 
-    // Notifications
     try {
       await Notification.create([
         { user: recipient._id, title: "New Donation!", message: `${req.user.name} sent you "${item.name}"`, type: 'donation_received', relatedDonation: null },
@@ -103,18 +99,15 @@ const acceptDonation = async (req, res) => {
     const item = await ClothingItem.findById(donation.item);
     if (!item) return res.status(404).json({ success: false, message: 'Item missing' });
 
-    // Transfer ownership
     item.user = req.user._id;
     item.status = 'active';
     await item.save();
 
-    // Update both records to completed
     await Donation.updateMany(
       { item: donation.item, status: 'pending' },
       { status: 'completed' }
     );
 
-    // Notify donor
     await Notification.create({
       user: donation.donor,
       title: "Donation Accepted!",
@@ -141,7 +134,7 @@ const rejectDonation = async (req, res) => {
 
     const item = await ClothingItem.findById(donation.item);
     if (item) {
-      item.status = 'active'; // back to donor
+      item.status = 'active'; 
       await item.save();
     }
 

@@ -1,5 +1,3 @@
-// backend/controllers/authController.js
-
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
@@ -9,7 +7,6 @@ const generateToken = (userId) => {
   return jwt.sign({ userId }, process.env.JWT_SECRET, { expiresIn: '7d' });
 };
 
-// SIGNUP
 const signup = async (req, res) => {
   try {
     const { name, email, password, confirmPassword } = req.body;
@@ -58,7 +55,6 @@ const signup = async (req, res) => {
   }
 };
 
-// LOGIN – Manual compare
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -101,7 +97,6 @@ const login = async (req, res) => {
   }
 };
 
-// FORGOT PASSWORD
 const forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
@@ -122,7 +117,7 @@ const forgotPassword = async (req, res) => {
     res.json({
       success: true,
       message: 'OTP sent successfully',
-      otp // remove in production
+      otp 
     });
 
   } catch (error) {
@@ -130,7 +125,6 @@ const forgotPassword = async (req, res) => {
   }
 };
 
-// VERIFY OTP
 const verifyOtp = async (req, res) => {
   try {
     const { email, otp } = req.body;
@@ -150,7 +144,6 @@ const verifyOtp = async (req, res) => {
   }
 };
 
-// RESET PASSWORD – Manual hashing
 const resetPassword = async (req, res) => {
   try {
     const { email, otp, newPassword, confirmPassword } = req.body;
@@ -171,7 +164,6 @@ const resetPassword = async (req, res) => {
 
     if (!user) return res.status(400).json({ success: false, message: 'Invalid or expired OTP' });
 
-    // MANUAL HASHING AGAIN
     const salt = await bcrypt.genSalt(10);
     user.password = await bcrypt.hash(newPassword, salt);
 

@@ -4,10 +4,8 @@ const authMiddleware = require('../middlewares/authMiddleware');
 const upload = require('../utils/upload');
 const wardrobeController = require('../controllers/wardrobeController');
 
-// All routes require authentication
 router.use(authMiddleware);
 
-// Wardrobe routes
 router.post('/items', upload.single('image'), wardrobeController.addItem);
 router.get('/items', wardrobeController.getItems);
 router.get('/items/:id', wardrobeController.getItem);

@@ -3,7 +3,6 @@ const Donation = require('../models/Donation');
 const path = require('path');
 const fs = require('fs');
 
-// Add New Item
 const addItem = async (req, res) => {
   try {
     const { name, category, gender, color } = req.body;
@@ -41,7 +40,6 @@ const addItem = async (req, res) => {
   } catch (error) {
     console.error('Add item error:', error);
     
-    // Clean up uploaded file if there was an error
     if (req.file) {
       fs.unlink(req.file.path, (err) => {
         if (err) console.error('Error deleting file:', err);
@@ -56,7 +54,6 @@ const addItem = async (req, res) => {
   }
 };
 
-// Get All Items
 const getItems = async (req, res) => {
   try {
     const { 
@@ -71,13 +68,11 @@ const getItems = async (req, res) => {
 
     const query = { user: req.userId };
 
-    // Apply filters
     if (category) query.category = category;
     if (gender) query.gender = gender;
     if (color) query.color = { $regex: color, $options: 'i' };
     if (status) query.status = status;
 
-    // Sort options
     let sort = {};
     switch (sortBy) {
       case 'newest':
@@ -145,7 +140,6 @@ const getItems = async (req, res) => {
   }
 };
 
-// Get Single Item
 const getItem = async (req, res) => {
   try {
     const item = await ClothingItem.findOne({
@@ -174,7 +168,6 @@ const getItem = async (req, res) => {
   }
 };
 
-// Update Item
 const updateItem = async (req, res) => {
   try {
     const { name, category, gender, color, status } = req.body;
@@ -189,7 +182,6 @@ const updateItem = async (req, res) => {
     if (req.file) {
       updateData.imageUrl = `/uploads/images/${req.file.filename}`;
       
-      // Delete old image if exists
       const oldItem = await ClothingItem.findById(req.params.id);
       if (oldItem && oldItem.imageUrl) {
         const oldPath = path.join(__dirname, '..', oldItem.imageUrl);
@@ -220,7 +212,6 @@ const updateItem = async (req, res) => {
   } catch (error) {
     console.error('Update item error:', error);
     
-    // Clean up uploaded file if there was an error
     if (req.file) {
       fs.unlink(req.file.path, (err) => {
         if (err) console.error('Error deleting file:', err);
@@ -235,7 +226,6 @@ const updateItem = async (req, res) => {
   }
 };
 
-// Delete Item
 const deleteItem = async (req, res) => {
   try {
     const item = await ClothingItem.findOneAndDelete({
@@ -250,7 +240,6 @@ const deleteItem = async (req, res) => {
       });
     }
 
-    // Delete image file
     if (item.imageUrl) {
       const imagePath = path.join(__dirname, '..', item.imageUrl);
       if (fs.existsSync(imagePath)) {
@@ -272,7 +261,6 @@ const deleteItem = async (req, res) => {
   }
 };
 
-// Update Item Status
 const updateItemStatus = async (req, res) => {
   try {
     const { status } = req.body;
@@ -312,7 +300,6 @@ const updateItemStatus = async (req, res) => {
   }
 };
 
-// Get Dashboard Stats
 const getDashboardStats = async (req, res) => {
   try {
     const totalItems = await ClothingItem.countDocuments({ user: req.userId });
@@ -330,12 +317,10 @@ const getDashboardStats = async (req, res) => {
     });
     const activeRate = totalItems > 0 ? Math.round((activeItems / totalItems) * 100) : 0;
 
-    // Get recent items
     const recentItems = await ClothingItem.find({ user: req.userId })
       .sort({ createdAt: -1 })
       .limit(5);
 
-    // Get categories distribution
     const categories = await ClothingItem.aggregate([
       { $match: { user: req.userId } },
       { $group: { _id: '$category', count: { $sum: 1 } } },

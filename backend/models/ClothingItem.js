@@ -46,7 +46,6 @@ const clothingItemSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Index for faster queries
 clothingItemSchema.index({ user: 1, category: 1 });
 clothingItemSchema.index({ user: 1, status: 1 });
 

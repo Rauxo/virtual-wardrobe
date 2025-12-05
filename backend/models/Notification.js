@@ -1,4 +1,3 @@
-// models/Notification.js
 const mongoose = require('mongoose');
 
 const notificationSchema = new mongoose.Schema({
@@ -21,7 +20,7 @@ const notificationSchema = new mongoose.Schema({
       'donation_sent',
       'donation_received', 
       'donation_accepted',
-      'outfit_suggestion'    // ADD THIS LINE
+      'outfit_suggestion'   
     ],
     required: true
   },
@@ -29,7 +28,7 @@ const notificationSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Donation'
   },
-  data: {                     // ADD THIS FIELD (for outfit details)
+  data: {                    
     type: Object,
     default: {}
   },

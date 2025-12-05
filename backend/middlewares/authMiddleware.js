@@ -26,7 +26,6 @@ const authMiddleware = async (req, res, next) => {
         });
       }
 
-      // Extra manual expiration check
       if (decoded.exp && decoded.exp <= Date.now() / 1000) {
         return res.status(401).json({
           success: false,
@@ -34,7 +33,6 @@ const authMiddleware = async (req, res, next) => {
         });
       }
 
-      // Find user from decoded payload
       const user = await User.findById(decoded.userId);
 
       if (!user) {
@@ -44,8 +42,8 @@ const authMiddleware = async (req, res, next) => {
         });
       }
 
-      req.user = user;       // attach whole user
-      req.userId = user._id; // also attach userId if needed
+      req.user = user;      
+      req.userId = user._id;
 
       next();
     });

@@ -1,6 +1,5 @@
 const User = require('../models/User');
 
-// Get User Profile
 const getProfile = async (req, res) => {
   try {
     const user = await User.findById(req.userId).select('-password');
@@ -26,12 +25,10 @@ const getProfile = async (req, res) => {
   }
 };
 
-// Update Profile
 const updateProfile = async (req, res) => {
   try {
     const { name, email } = req.body;
 
-    // Check if email already exists for another user
     if (email) {
       const existingUser = await User.findOne({ 
         email, 
@@ -71,12 +68,10 @@ const updateProfile = async (req, res) => {
   }
 };
 
-// Change Password
 const changePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword, confirmPassword } = req.body;
 
-    // Validation
     if (!currentPassword || !newPassword || !confirmPassword) {
       return res.status(400).json({
         success: false,
@@ -98,7 +93,6 @@ const changePassword = async (req, res) => {
       });
     }
 
-    // Get user with password
     const user = await User.findById(req.userId).select('+password');
     
     if (!user) {
@@ -108,7 +102,6 @@ const changePassword = async (req, res) => {
       });
     }
 
-    // Verify current password
     const isPasswordValid = await user.comparePassword(currentPassword);
     if (!isPasswordValid) {
       return res.status(400).json({
@@ -117,7 +110,6 @@ const changePassword = async (req, res) => {
       });
     }
 
-    // Update password
     user.password = newPassword;
     await user.save();
 
